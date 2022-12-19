@@ -1,0 +1,26 @@
+git init /para iniciar un git
+git status /para ver el status de esa carpeta
+git add / para agregar al trackeo
+git rm --catched <''> /para dejar de trakear
+git commit -m "aqui va el mensaje"/Para guardar un commit
+git config --global user.email "aqui va el email" / para agregar cuenta
+git config --global user.name "aqui va el nombre" /para asignar tu nombre
+git add index.html / para actualizar la commit
+git commit - m "se actualizado nombre"
+git log / para mostrar el ID del commit
+git log --oneline / muestra la lista de modificacion reducida
+git log -p / muestra a detalle cada version
+:q pasa salir de ese estado
+clear / para limpiar la pantalla
+git log --pretty="format:%h %s %ae" /Para personalixar la linea que muesta los cambios
+git ignore / primero consultar 
+cd .. /para retroceder una carpeta
+mkdir servidor / PAra crear la carpeta llamada servidor
+cd servidor / para acceder a la carpeta servidor
+git int --bare / para crear un repositorio que controla algo remoto, se crea una camino. Retorno a mi otra carpeta y aplico:
+git remote /lista los servidores creados para remoto
+git remote add servidorlocal "camino del repositorio" / para agregar el servidor 
+git remote /para consultar si existe ese servidor
+git remote -v / para ver el servidor que estamos
+fetch /lugar donde obtenemos la nformacion del serv
+
