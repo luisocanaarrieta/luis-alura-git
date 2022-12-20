@@ -25,5 +25,5 @@ git remote -v / para ver el servidor que estamos
 fetch /lugar donde obtenemos la nformacion del serv
 
 ahora aprenderemos con github
-
+otra cosa
 
