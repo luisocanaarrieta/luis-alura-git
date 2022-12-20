@@ -24,3 +24,6 @@ git remote /para consultar si existe ese servidor
 git remote -v / para ver el servidor que estamos
 fetch /lugar donde obtenemos la nformacion del serv
 
+ahora aprenderemos con github
+
+
