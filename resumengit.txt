@@ -24,6 +24,9 @@ git remote /para consultar si existe ese servidor
 git remote -v / para ver el servidor que estamos
 fetch /lugar donde obtenemos la nformacion del serv
 
-ahora aprenderemos con github
-otra cosa
-nuevo
+--ahora aprenderemos con github
+//comamddo para crear el acceso remoto a github
+git remote add origin https://github.com/luisocanaarrieta/luis-alura-git.git
+
+//comando para conectar con github 
+git push origin master 
