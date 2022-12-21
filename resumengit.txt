@@ -1,6 +1,7 @@
 git init /para iniciar un git
 git status /para ver el status de esa carpeta
 git add / para agregar al trackeo
+git add . /para agregar una modificacion, luego se hace el commit
 git rm --catched <''> /para dejar de trakear
 git commit -m "aqui va el mensaje"/Para guardar un commit
 git config --global user.email "aqui va el email" / para agregar cuenta
@@ -30,3 +31,10 @@ git remote add origin https://github.com/luisocanaarrieta/luis-alura-git.git
 
 //comando para conectar con github 
 git push origin master 
+
+//Comando para colaborar usando branch
+git branch / me dice en que rama me encuentro
+
+git branch titulo /aqui creo una nueva rama llamada 'titulo'
+
+git checkout titulo /comando para cambiar de rama 'master' a 'titulo'
