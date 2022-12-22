@@ -29,7 +29,6 @@ fetch /lugar donde obtenemos la nformacion del serv
 --ahora aprenderemos con github
 //comamddo para crear el acceso remoto a github
 git remote add origin https://github.com/luisocanaarrieta/luis-alura-git.git
-
 //comando para conectar con github 
 git push origin master 
 
@@ -39,3 +38,8 @@ git branch / me dice en que rama me encuentro
 git branch titulo /aqui creo una nueva rama llamada 'titulo'
 
 git checkout titulo /comando para cambiar de rama 'master' a 'titulo'
+
+git restore <> /para restaurar los cambios realizados
+git restore --staged <> / para retroceder a un paso antes (sacar del git add .)
+
+git revert <'codigo hash del commint'> /para deshacer el commit que he ingresado. se presiona :x para continuar
