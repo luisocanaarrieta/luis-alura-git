@@ -11,6 +11,7 @@ git commit - m "se actualizado nombre"
 git log / para mostrar el ID del commit
 git log --oneline / muestra la lista de modificacion reducida
 git log -p / muestra a detalle cada version
+git log --graph / para mostrar como grafico
 :q pasa salir de ese estado
 clear / para limpiar la pantalla
 git log --pretty="format:%h %s %ae" /Para personalixar la linea que muesta los cambios
